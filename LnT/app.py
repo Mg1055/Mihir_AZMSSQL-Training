@@ -27,7 +27,7 @@ password = 'Localhost@1234567'
 driver = '{SQL Server}'
  
 cnxn = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server +';PORT=1433;DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
- 
+ ygady
 otp_storage = {}
 stored_email = None
  
